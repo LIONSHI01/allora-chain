@@ -12,6 +12,6 @@ services:
       - ./data:/data
       - ./scripts/:/scripts
     ports:
-      - "26656-26657:26656-26657"
+      - "26650-26653:26650-26653"
     user: "0:0"
     entrypoint: /scripts/l1_node.sh
